@@ -1,8 +1,13 @@
 #include "monty.h"
+
 /**
-* free_stack - frees a doubly linked list
-* @head: head of the stack
-*/
+ * free_stack - Frees a doubly linked list
+ * @head: Head of the stack
+ *
+ * Description:
+ * This function frees the memory allocated for a doubly linked list.
+ * It starts from the head of the list and iteratively frees each node.
+ */
 void free_stack(stack_t *head)
 {
 	stack_t *aux;
